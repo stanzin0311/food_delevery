@@ -1,0 +1,29 @@
+
+/* header */
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.header ul{
+display: flex;
+justify-content: space-evenly;
+}
+.header ul li{
+list-style-type: none;
+padding: 5px;
+
+}
+.header ul li a{
+  text-decoration: none;
+}
+
+/* footer */
+.footer{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  background-color: #fff;
+  
+}
